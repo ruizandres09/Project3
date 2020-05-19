@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>PSYKHE</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1 class="display-4">PSYKHE</h1>
+                    <p class="lead">Create a personal journal and get feedback of your emotions and tone.</p>
+                    <hr class="my-4">
+                    <p>"Do not dwell in the past, do not dream of the future,
+                        <br>concentrate the mind on the present moment."
+                        <br>- Buddha</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-3">
+                <form style="border: 1px solid #ccc; border-radius: 10px; width:500px; height:300px; padding:50px">
+                    <div class="form-group" style="width:400px">
+                        <input type="username" class="form-control" style="height:50px" id="username"
+                            placeholder="Username">
+                    </div>
+                    <div class="form-group" style="width:400px; margin-top:25px;">
+                        <input type="password" class="form-control" style="height:50px" id="password"
+                            placeholder="Password">
+                    </div>
+                    <div style="text-align:center;">
+                        <button type="sign-up" class="btn btn-primary"
+                            style="width:180px; margin-top:10px; padding:15px">Sign
+                            Up</button>
+                        <button type="log-in" class="btn btn-primary"
+                            style="width:180px; margin-top:10px; margin-left:20px; padding:15px">Log
+                            In</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 offset-md-2">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2018/04/21/15/21/meditation-3338691_960_720.jpg"
+                                alt="Meditate at Sunset">
+                            <div class="carousel-caption">
+                                <h3>Write Logs</h3>
+                                <p>Express yourself.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://miro.medium.com/max/4000/0*KchZookuM-KupSv2.jpg" alt="Majestic Mountains">
+                            <div class="carousel-caption">
+                                <h3>View Past Logs</h3>
+                                <p>Compare your now to your before</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.lionsroar.com/wp-content/uploads/2003/12/bamboo.jpg"
+                                alt="Balboo Forest">
+                            <div class="carousel-caption">
+                                <h3>Analyze your Sentiments</h3>
+                                <p>Learn more about yourself</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
